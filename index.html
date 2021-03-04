@@ -2,23 +2,10 @@
 <html>
     <head meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Calculator</title>
-    <style>
-        .bcss{
-            background-color: #253054;
-            border: none;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            font-family: "Times New Roman";
-            color: white;
-        }
-    </style>
 </head>
     <body>
         <div id='calc-contain'>
-  
+  <h1>The css gave me a head ache so just this, i know it is bad, but it is functional...</h1>
           <form name="calculator">
                 
             <input type="text" style="width: 1000;" name="answer" />
@@ -41,8 +28,7 @@
                 <input type="button" value=" x " class="bcss" onclick="calculator.answer.value += '*'" />
             </br>
         
-                <input type="button" style=" color: white;
-        background-color: #ff5454; border: none; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; font-family: "Times New Roman";" value=" Clear " onclick="calculator.answer.value = ''" />
+                <input type="button" value=" Clear " onclick="calculator.answer.value = ''" />
                 <input type="button" value=" 0 " class="bcss" onclick="calculator.answer.value += '0'" />
                 <input type="button" value=" = " class="bcss" onclick="calculator.answer.value = eval(calculator.answer.value)" />
                 <input type="button" value=" ÷ " class="bcss" onclick="calculator.answer.value += '/'" />
